@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp User</title>
+</head>
+<body>
+
+<form>
+	
+
+	<label for="fname">First Name:</label>
+	<input type="text" id="fname" placeholder="John">
+	
+	<label for="lname">Last Name</label>
+	<input type="text" id="lname" placeholder="Smith"><br>
+	
+	<input type="radio" id="male">
+	<label for="male">Male</label>
+	
+	<input type="radio" id="female">
+	<label for="female">Female</label>
+	
+	<input type="radio" id="other">
+	<label for="other">Other</label><br>
+	
+	<label for="email">Email</label>
+	<input type="text" id="email" placeholder="your email">
+	
+	<label for="password">Password</label>
+	<input type="text" id="password" placeholder="your password"><br>
+
+	Birthday<select name = "month">
+		<option value = "month">Month</option>
+		<option value = "January">January</option>
+		<option value = "February">February</option>
+	</select>
+
+	<select name = "day">
+		<option value = "Day">Day</option>
+		<option value = "Monday">Monday</option>
+		<option value = "Tuesday">Tuesday</option>
+
+    </select>
+
+    <select name = "year">
+		<option value = "Year">Year</option>
+		<option value = "1994">1994</option>
+		<option value = "1995">1995</option>
+
+    </select>
+     
+      <br>I agree to the terms and conditions <input type="checkbox">
+	
+
+</form>	
+
+</body>
+</html>
