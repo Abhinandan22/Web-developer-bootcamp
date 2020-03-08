@@ -1,0 +1,9 @@
+function kebabToSnake(str){
+
+var newStr = str.replace(/-/g,"_");
+
+return newStr;
+}
+
+var result = kebabToSnake("quid-pro-quo");
+console.log(result);
