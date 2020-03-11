@@ -1,0 +1,24 @@
+var firstObj = {
+
+firstName:"Colt",
+printName : function(){
+
+gs.print(this.firstName);
+
+}
+
+}
+
+var secondObj = {
+
+firstName : "Steele",
+/*printName : function(){
+
+gs.print(this.firstName);
+
+}*/
+}
+
+firstObj.printName();
+//secondObj.printName();
+firstObj.printName.call(secondObj);
