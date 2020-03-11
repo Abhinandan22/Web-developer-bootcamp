@@ -1,0 +1,25 @@
+var firstObj = {
+
+firstName:"Colt",
+printName : function(){
+
+gs.print(this.firstName);
+
+},
+
+addNumbers : function(a,b,c,d){
+gs.print(this.firstName + (a+b+c+d));
+}
+
+}
+
+var secondObj = {
+
+firstName : "Steele",
+
+}
+
+var elie = firstObj.addNumbers.bind(secondObj,1,2,3,4);
+elie();
+var elie = firstObj.addNumbers.bind(secondObj,1,2);
+elie(3,4);
