@@ -1,0 +1,17 @@
+function Dog(name,age){
+
+this.age = age;
+this.name = name;
+
+this.bark = function(){
+gs.print(this.name + " just barked!");
+}
+
+}
+
+var rusty = new Dog('Rusty',3);
+var fido =new Dog('Fido',1);
+
+rusty.bark();
+fido.bark();
+
