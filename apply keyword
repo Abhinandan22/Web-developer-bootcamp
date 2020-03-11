@@ -1,0 +1,30 @@
+var firstObj = {
+
+firstName:"Colt",
+printName : function(){
+
+gs.print(this.firstName);
+
+},
+
+addNumbers : function(a,b,c,d){
+gs.print(this.firstName + (a+b+c+d));
+}
+
+}
+
+var secondObj = {
+
+firstName : "Steele",
+/*printName : function(){
+
+gs.print(this.firstName);
+
+}*/
+}
+
+firstObj.printName();
+//secondObj.printName();
+firstObj.printName.call(secondObj);
+firstObj.addNumbers(6,7,8,2);
+firstObj.addNumbers.apply(secondObj,[1,2,4,5]); //Remember array for the subsequent object. Cannot pass values without arrays
